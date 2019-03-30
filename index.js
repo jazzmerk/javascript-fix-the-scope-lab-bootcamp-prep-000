@@ -30,9 +30,10 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 
 
+var temp;
 var theFunk;
-theFunk=funkyFunction();
-
+temp=funkyFunction();
+theFunk=temp();
 
 
 //https://learn.co/tracks/bootcamp-prep/javascript-fundamentals/functions-and-scope/fix-the-scope-lab#
