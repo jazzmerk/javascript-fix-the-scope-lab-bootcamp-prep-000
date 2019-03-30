@@ -31,6 +31,6 @@ var funkyFunction = function() {
 
 
 var theFunk;
-theFunk=funkyFunction;
+theFunk=funkyFunction(());
 
 //https://learn.co/tracks/bootcamp-prep/javascript-fundamentals/functions-and-scope/fix-the-scope-lab#
